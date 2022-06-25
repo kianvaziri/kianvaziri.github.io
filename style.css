@@ -1,0 +1,57 @@
+/* this is a comment in CSS */
+
+/*
+https://www.educative.io/answers/class-and-id-selectors-in-css
+*/
+
+/*
+ Selectors: class and id
+ 
+ class .
+ id    #
+ */
+
+.siphon1{
+    width:500px
+    height:500px
+}
+#greetings{
+    color: darkcyan ;
+}
+.major-box{
+    padding:30px;
+    border: 1px solid black;
+    margin: 100px;
+    background-color: white;
+    /*padding-top: 30px;*/
+}
+.grid-0{
+    display :grid;
+    grid-template-columns: auto auto;
+    
+}
+
+.box-0{
+    padding-right:10px;
+    
+}
+.intro{
+    text-align: center;
+}
+.navbar{
+    display :grid;
+    grid-template-columns: auto auto;
+    border-bottom: 1px solid black;
+    position: fixed;
+    top:0;
+    width: 97%;
+    height: 10%;
+    background-color: white;
+}
+.text-right{
+    text-align:right;
+}
+html{
+    background-color:lightyellow;
+/*    font-family: sans-serif;*/
+}
